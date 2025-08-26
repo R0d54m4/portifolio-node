@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Rodolfo Santos</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-green-600 text-white py-10 text-center">
+    <h1 class="text-5xl font-bold">Rodolfo Santos</h1>
+    <p class="mt-2 text-lg">Estudante de Desenvolvimento de Sistemas | Backend & Frontend</p>
+  </header>
+
+  <main class="max-w-4xl mx-auto mt-10 space-y-12 px-4">
+
+    <!-- Sobre -->
+    <section class="bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-3xl font-semibold mb-4">Sobre</h2>
+      <p>Olá! Sou estudante de Desenvolvimento de Sistemas, apaixonado por tecnologia e aprendizado contínuo. Tenho experiência com Node.js, Express, JavaScript, HTML e CSS.</p>
+    </section>
+
+    <!-- Habilidades -->
+    <section class="bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-3xl font-semibold mb-4">Habilidades</h2>
+      <ul class="list-disc pl-5 space-y-1">
+        <li>Node.js e Express</li>
+        <li>JavaScript, HTML e CSS</li>
+        <li>Tailwind CSS</li>
+        <li>CRUD e APIs REST</li>
+        <li>Git e GitHub</li>
+      </ul>
+    </section>
+
+    <!-- Educação -->
+    <section class="bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-3xl font-semibold mb-4">Educação</h2>
+      <ul class="list-disc pl-5 space-y-1">
+        <li>Técnico em Desenvolvimento de Sistemas – 2º semestre</li>
+        <li>Ensino Médio Completo</li>
+      </ul>
+    </section>
+
+    <!-- Experiências -->
+    <section class="bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-3xl font-semibold mb-4">Experiências</h2>
+      <ul class="list-disc pl-5 space-y-1">
+        <li>Desenvolvimento de projetos acadêmicos em Node.js e frontend</li>
+        <li>Participação em projetos de estudo de APIs e CRUD</li>
+      </ul>
+    </section>
+
+    <!-- Projetos -->
+    <section class="bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-3xl font-semibold mb-4">Projetos</h2>
+      <ul id="project-list" class="space-y-3"></ul>
+      <form id="project-form" class="mt-6 space-y-4">
+        <input type="text" id="title" placeholder="Título do projeto" required class="w-full p-2 border rounded">
+        <input type="text" id="description" placeholder="Descrição" required class="w-full p-2 border rounded">
+        <input type="text" id="link" placeholder="Link GitHub" required class="w-full p-2 border rounded">
+        <button type="submit" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-500 transition">Adicionar Projeto</button>
+      </form>
+    </section>
+
+    <!-- Contato -->
+    <section class="bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-3xl font-semibold mb-4">Contato</h2>
+      <p>Email: <a href="mailto:seuemail@example.com" class="text-green-600 hover:underline">souchirou.sama@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/seuusuario" target="_blank" class="text-green-600 hover:underline">linkedin.com/in/rodolfo-santos-do-nascimento-199587108?utm_source=share&utm</a></p>
+      <p>GitHub: <a href="https://github.com/seuusuario" target="_blank" class="text-green-600 hover:underline">github.com/r0d54m4</a></p>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
