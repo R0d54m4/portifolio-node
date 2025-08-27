@@ -18,7 +18,7 @@ form.addEventListener('submit', async e => {
   const description = document.getElementById('description').value;
   const link = document.getElementById('link').value;
 
-  await fetch('http://localhost:3000/api/projects', {
+  await fetch('https://portifolio-node.onrender.com/api/projects', {
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({ title, description, link })
