@@ -2,7 +2,7 @@ const projectList = document.getElementById('project-list');
 const form = document.getElementById('project-form');
 
 async function fetchProjects() {
-  const res = await fetch('http://localhost:3000/api/projects');
+ const res = await fetch('https://portifolio-node.onrender.com/api/projects');
   const projects = await res.json();
   projectList.innerHTML = '';
   projects.forEach(p => {
